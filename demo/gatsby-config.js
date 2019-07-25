@@ -5,5 +5,13 @@
  */
 
 module.exports = {
-  plugins: ["gatsby-theme-jam-example"],
+  plugins: [
+    {
+      resolve: "gatsby-theme-shelter",
+      options: {
+        contentPath: "test",
+        basePath: "/test",
+      },
+    },
+  ],
 }

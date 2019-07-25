@@ -1,36 +1,36 @@
-import React from "react"
-import { css, Global } from "@emotion/core"
-import { Layout as StyledLayout, Header, Main, Container } from "theme-ui"
-import { graphql, useStaticQuery } from "gatsby"
+import React from 'react';
+import { css, Global } from '@emotion/core';
+import { Layout as StyledLayout, Main, Container } from 'theme-ui';
+
+import Header from '../components/header';
+import Footer from '../components/footer';
+import SEO from '../components/seo';
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <StyledLayout>
+      <SEO />
       <Global
         styles={css`
           body {
             margin: 0;
           }
+          .primary {
+            fill: #a5b3bb;
+          }
+
+          .secondary {
+            fill: #0d2b3e;
+          }
         `}
       />
-      <Header>
-        <span>{data.site.siteMetadata.title}</span>
-      </Header>
+      <Header />
       <Main>
         <Container>{children}</Container>
       </Main>
+      <Footer />
     </StyledLayout>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

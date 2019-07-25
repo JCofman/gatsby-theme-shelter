@@ -1,0 +1,23 @@
+- name: "React Rally"
+  location: Salt lake City
+  start_date: 2019-08-22
+  end_date: 2019-08-23
+  url: www.reactrally.com
+
+- name: "React Rally 1"
+  location: Salt lake City
+  start_date: 2019-08-22
+  end_date: 2019-08-23
+  url: www.reactrally.com
+  
+- name: "React Rally 2"
+  location: Salt lake City
+  start_date: 2019-08-22
+  end_date: 2019-08-23
+  url: www.reactrally.com
+
+- name: "React Rally 3"
+  location: Salt lake City
+  start_date: 2019-08-22
+  end_date: 2019-08-23
+  url: www.reactrally.com

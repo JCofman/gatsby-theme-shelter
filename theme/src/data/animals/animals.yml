@@ -1,0 +1,47 @@
+- name: Lilli
+  country_of_origin: Rumania
+  shoulder_height: 30 cm
+  weight: 9kg
+  birthday: 2019-08-22
+  color: black
+  in_care_since: 2019-08-22
+  text: Meet Zuma! She is a heeler mix looking for her forever home! She is good with dogs with proper introduction, but shouldn’t be around small animals. She is good with people, once she gets comfortable. We think she would be great with her own kid, or a family with another dog she can play with. Feel free to contact me to meet her, or contact the McDonough County Animal Shelter. We are also sponsering her adoption fees!!!
+  thumbnail_src: https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=720&q=80
+  images:  [https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80, https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80]
+
+- name: George
+  country_of_origin: Germany
+  shoulder_height: 50 cm
+  weight: 25kg
+  birthday: 1975-10-16
+  color: white
+  in_care_since: 1975-10-16
+  text: Meet Zuma! She is a heeler mix looking for her forever home! She is good with dogs with proper introduction, but shouldn’t be around small animals. She is good with people, once she gets comfortable. We think she would be great with her own kid, or a family with another dog she can play with. Feel free to contact me to meet her, or contact the McDonough County Animal Shelter. We are also sponsering her adoption fees!!!
+  thumbnail_src: https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  images:  [https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80, https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80]
+
+  
+- name: Univ.Prof. Hubertus Meister B.Eng.
+  country_of_origin: Yemen
+  shoulder_height: 50 cm
+  weight: 25kg
+  birthday: 1998-05-01
+  color: white
+  in_care_since: 1998-05-01
+  text: Meet Zuma! She is a heeler mix looking for her forever home! She is good with dogs with proper introduction, but shouldn’t be around small animals. She is good with people, once she gets comfortable. We think she would be great with her own kid, or a family with another dog she can play with. Feel free to contact me to meet her, or contact the McDonough County Animal Shelter. We are also sponsering her adoption fees!!!
+  thumbnail_src: https://images.unsplash.com/photo-1534983283799-b12a2ad6b1a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3024&q=80
+  images:  [https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80, https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80]
+
+  
+
+- name: Thomas Lagarde-Chevallier
+  country_of_origin: Germany
+  shoulder_height: 50 cm
+  weight: 25kg
+  birthday: 1998-05-01
+  color: Fushia (Magenta)
+  in_care_since: 2013-12-23
+  text: George is awesome
+  thumbnail_src: https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
+  images:  [https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80, https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80]
+

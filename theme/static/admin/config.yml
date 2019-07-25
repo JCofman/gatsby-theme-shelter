@@ -1,0 +1,21 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: Animals
+    label: Animal
+    folder: animal
+    create: true
+    fields:
+      - { name: "path", label: "Path" }
+      - { name: "name", labe: "Name"}
+      - { name: "countryOfOrigin", label: "Country of origin"}
+      - { name: "weight", label: "Weight"}
+      - { name: "birthday", label: "Birthday", widget: "date" }
+      - { name: "color", label: "Color" }
+      - { name: "inCareSince", label: "In care since"}
+      - { name: "thumbnail", label: "Featured Image", widget: "image", default: "/uploads/chocolate-dogecoin.jpg" }
+      - { name: "body", label: "Body", widget: "markdown" }
