@@ -192,16 +192,15 @@ export default {
     li: {
       listStyle: 'none',
       padding: 2,
-     
     },
-    button:{
+    button: {
       fontSize: 'lg',
       padding: '2',
       color: 'white',
       boxShadow: 'md',
       fontWeight: 'bold',
       borderRadius: '0.5rem',
-      backgroundColor: 'secondary'
-    }
+      backgroundColor: 'secondary',
+    },
   },
 };

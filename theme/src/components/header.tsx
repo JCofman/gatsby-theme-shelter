@@ -1,6 +1,5 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Header as ThemeUIHeader } from 'theme-ui';
+import { jsx, Header as ThemeUIHeader } from 'theme-ui';
 import Logo from '../assets/logo_transparent.png';
 import { useSpring, animated } from 'react-spring';
 import { useWindowScrollPosition } from '../hooks/useWindowScrollPosition';
@@ -32,8 +31,7 @@ const Header = () => {
         sx={{
           // values referencing scales defined in a theme
           display: 'flex',
-          paddingRight: '3',
-          paddingLeft: '3',
+          padding: '0',
           listStyle: 'none',
           width: 'max',
           justifyContent: 'center',
@@ -43,12 +41,26 @@ const Header = () => {
           zIndex: '1000000',
           height: '70px',
           margin: '0',
+          color: 'rgb(247, 250, 252)',
         }}
         role="navigation"
       >
-        <li>
+        <li
+          sx={{
+            ml: 3,
+          }}
+        >
           {' '}
-          <AniLink fade to="/">
+          <AniLink
+            sx={{
+              color: 'secondary',
+              '&.active': {
+                color: 'secondary',
+              },
+            }}
+            fade
+            to="/"
+          >
             Home
           </AniLink>
         </li>

@@ -3,7 +3,18 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
-const SEO = ({ description, lang, meta, keywords, title }) => {
+type Props = {
+  title?: string;
+  description?: string;
+  lang?: string;
+  meta?: [];
+  keywords?: Array<string>;
+  pathname?: string;
+  image?: string;
+  children?: React.ReactNode;
+};
+
+const SEO = ({ description, lang, meta, keywords, title }: Props) => {
   return (
     <StaticQuery
       query={detailsQuery}
@@ -64,7 +75,7 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
             <link
               rel="preconnect"
               href="https://www.google-analytics.com"
-              crossOrigin
+              crossOrigin=""
             />
           </Helmet>
         );

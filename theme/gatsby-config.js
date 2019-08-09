@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-typescript`,
 
     {
       resolve: `gatsby-transformer-yaml`,
@@ -58,12 +59,11 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-svgr',
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
-          include: /assets/, // See below to configure properly
+          include: /\.inline\.svg$/,
         },
       },
     },

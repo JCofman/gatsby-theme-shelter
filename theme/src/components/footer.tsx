@@ -15,7 +15,7 @@ const Footer = props => {
         <li></li>
       </ul>
       <ul>
-        <li>Adress</li>
+        <li>Address</li>
         <li>Number</li>
         <li>Instagram</li>
         <li>....</li>

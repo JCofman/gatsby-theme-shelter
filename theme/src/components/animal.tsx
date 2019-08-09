@@ -1,4 +1,5 @@
 /** @jsx jsx */
+import React from 'react';
 import { useSpring, animated, config } from 'react-spring';
 import { Styled, Flex, Box, jsx } from 'theme-ui';
 import SEO from '../components/seo';
@@ -33,13 +34,13 @@ const Animal = ({ animal }) => {
     color,
     countryOfOrigin,
     // id,
-    // images,
-    // inCareSince,
+    images,
+    inCareSince,
     name,
     shoulderHeight,
-    // slug,
+    slug,
     text,
-    // thumbnailSrc,
+    thumbnailSrc,
     weight,
   } = animal;
 
@@ -110,14 +111,14 @@ const Animal = ({ animal }) => {
             <Styled.h1>{animal.name}</Styled.h1>
           </animated.div>
           <animated.div style={infoProps}>
-            <Flex sx={{ mt: 4, mb: [2, 4], flexWrap: `wrap` }}>
-              <Item name="Client" content={shoulderHeight} />
-              <Item name="Date" content={birthday} />
-              <Item name="Service" content={weight} />
-              <Item name="Client" content={shoulderHeight} />
-              <Item name="Date" content={color} />
-              <Item name="Service" content={weight} />
-            </Flex>
+            <div sx={{ mt: 4, mb: [2, 4], flexWrap: `wrap` }}>
+              <Item name="Shoulder height" content={shoulderHeight} />
+              <Item name="Birthday" content={birthday} />
+              <Item name="Weight" content={weight} />
+              <Item name="Country of origin" content={countryOfOrigin} />
+              <Item name="Color" content={color} />
+              <Item name="In care since" content={inCareSince} />
+            </div>
           </animated.div>
         </Flex>
         <Box></Box>

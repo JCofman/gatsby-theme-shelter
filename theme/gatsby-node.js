@@ -162,7 +162,7 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
 
   actions.createPage({
     path: basePath,
-    component: require.resolve('./src/templates/animalsTemplate.js'),
+    component: require.resolve('./src/templates/animalsTemplate.tsx'),
   });
 
   const result = await graphql(`
@@ -192,7 +192,7 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
     const slug = animal.slug;
     actions.createPage({
       path: slug,
-      component: require.resolve('./src/templates/animalTemplate.js'),
+      component: require.resolve('./src/templates/animalTemplate.tsx'),
       context: {
         eventId: animal.id,
       },
@@ -205,7 +205,7 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
     pages.forEach(page => {
       createPage({
         path: page.slug,
-        component: require.resolve(`./src/templates/pageTemplate.js`),
+        component: require.resolve(`./src/templates/pageTemplate.tsx`),
         context: {
           slug: page.slug,
         },
